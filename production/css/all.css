@@ -1166,3 +1166,20 @@ input[type="search"] {
   .paycards__list .list__item {
     display: inline-block;
     padding-right: 10px; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .footer__item .item__title {
+    display: inline-block;
+    padding-bottom: 10px;
+    color: #544f4d;
+    font-weight: 700;
+    font-size: 16px; }
+  .footer__item .item__link {
+    text-decoration: none;
+    line-height: 1.4; }
