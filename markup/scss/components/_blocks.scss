@@ -1,0 +1,12 @@
+.block {
+	padding: 20px 0;
+	&--border {
+		border-bottom: 1px solid #b2b2b2;
+	}
+	&--lighten {
+		background-color: $lighten-bg;
+	}
+	&--light {
+		background-color: $light-bg;
+	}
+}
