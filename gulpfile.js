@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 //////  Tasks
 
 gulp.task('sass', function () {
-  return gulp.src('./markup/scss/all.scss')
+  return gulp.src('./markup/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest('./production/css'))
@@ -32,6 +32,6 @@ gulp.task('jquery', () =>
 );
 
 gulp.task('watch', function() {
-    gulp.watch("./markup/scss/*.scss", ['sass']);
+    gulp.watch("./markup/scss/**/*.scss", ['sass']);
     gulp.watch("./markup/js/assets.js", ['js']);
 });
