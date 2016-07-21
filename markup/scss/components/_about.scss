@@ -1,0 +1,9 @@
+.about-shop {
+	&__title {
+		font-weight: 400;
+	}
+	&__description {
+		font-size: ($font-size-base + 2);
+		line-height: 1.4;
+	}
+}
