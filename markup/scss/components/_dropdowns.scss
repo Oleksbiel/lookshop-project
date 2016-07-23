@@ -1,0 +1,52 @@
+.dropdown{
+	position: relative;
+	&__list{
+		padding: 0;
+		position: absolute;
+ 		left: -9999px;
+	}
+	&:hover .dropdown__list , &:hover .dropdown__box{
+		display: block;
+		left: 0;
+		right: 0;
+    	text-align: center;
+    	z-index: 99;
+	}
+	&__link{
+		font-size: 12px;
+		color: #000;
+		text-decoration: none;
+		display: block;
+		padding: 5px 0;
+		&:hover{
+			color: #000;
+			text-decoration: none;
+		}
+		&--list-user{
+			background: #000;
+   		 	color: #fff;
+    		padding: 10px 0;	
+    		&:hover{
+    			color: #fff;
+    			box-shadow: inset 0px 1px 0 0 #fff, inset 0px -1px 0 0 #fff;
+    		}
+		}
+		&--navbar-bg{
+			&:hover{
+				background: $brand-color;
+			}
+		}
+	}
+	&__box{
+		position: absolute;
+		left: -9999px;
+		background-color: #fafafa;
+		height: 300px;
+		top: 100%;
+		margin: 1px -1px 0 -1px;
+	}
+	&__title{
+		text-transform: uppercase;
+	}
+}
+

@@ -1,0 +1,54 @@
+.list-user{
+	font-size: 0;
+	&__item{
+		display: inline-block;
+		border-left: 1px solid #444;
+		border-right: 1px solid #444;	
+	}
+	&__link {
+		text-decoration: none;
+		padding: 10px 12px;
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 12px;
+		&:hover{
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+	&__icon{
+
+	}
+}
+.list-navbar{
+	margin-top: 15px;
+	&__item{
+		display: inline-block;
+		&--mg-right{
+			margin-right: 10px;
+		}
+	}
+	&__link {
+		font-size: 16px;
+		color: #000;
+		text-decoration: none;
+		padding: 15px 15px;
+		display: inline-block;
+		&:hover{
+			text-decoration: none;
+			color: #000;
+		}
+		
+	}
+}
+
+.caret {
+    display: inline-block;
+    height: 0;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}

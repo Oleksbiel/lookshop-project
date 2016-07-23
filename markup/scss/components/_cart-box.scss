@@ -1,0 +1,17 @@
+.cart-box{
+	min-width: 214px;
+	&__header{
+		width: 100%;
+		border: 1px solid #d6d6d6;
+		color: #949393;
+		padding: 10px;
+	}
+	&__footer{
+		background-color: #fafafa;
+		border: 1px solid #d6d6d6;
+		padding: 10px;
+		text-transform: uppercase;
+		color: #949393;
+		margin-top: -1px;
+	}
+}
