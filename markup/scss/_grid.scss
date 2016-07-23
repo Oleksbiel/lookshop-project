@@ -9,11 +9,19 @@
 //
 
 $enable-flex:               false !default;
+<<<<<<< HEAD
 $enable-rounded:            true !default;
 $enable-shadows:            true !default;
 $enable-gradients:          true !default;
 $enable-transitions:        true !default;
 $enable-hover-media-query:  true !default;
+=======
+$enable-rounded:            false !default;
+$enable-shadows:            false !default;
+$enable-gradients:          false !default;
+$enable-transitions:        false !default;
+$enable-hover-media-query:  false !default;
+>>>>>>> lookshop-project/Kate
 
 
 $developer-mode:            false !default;
