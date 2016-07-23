@@ -12,7 +12,7 @@ var concat = require('gulp-concat'),
 //////  Tasks
 
 gulp.task('sass', function () {
-  return gulp.src('./markup/scss/**/*.scss')
+  return gulp.src('./markup/scss/all.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest('./production/css'))
