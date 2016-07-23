@@ -18,14 +18,22 @@
 	}
 	&__icon{
 		position: relative;
+		&--mod{
+			color: #666;
+			font-size: 13px;
+			margin-right: 10px;
+		}
 	}
 }
 .list-navigation{
+	&:first-child li {
+		margin: 0;
+	}
 	&__item{
 		display: inline-block;
 		&:before{
 			content: '>';
-			margin-right: 7px;
+			margin: 0 6px;
 		}
 		margin-left: 5px;
 		&:first-child{

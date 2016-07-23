@@ -1,12 +1,12 @@
 $('.carousel').owlCarousel({
-    // autoPlay: 5000,
+    autoPlay: 4000,
     navigation: true,
     singleItem:true,
-    navigationText : ["<",">"]
+    navigationText : ["",""]
 })
 $('.carousel-2').owlCarousel({
-    // autoPlay: 5000,
+    autoPlay: 4000,
     navigation: true,
     singleItem:true,
-    navigationText : ["<",">"]
+    navigationText : ["",""]
 })

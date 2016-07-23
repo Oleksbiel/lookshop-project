@@ -46,7 +46,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('html', function () {
-    gulp.src('markup/*.html')
+    gulp.src('markup/index.html')
         .pipe(rigger())
         .pipe(gulp.dest('production/'));
 });
