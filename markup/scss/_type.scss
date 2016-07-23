@@ -51,6 +51,7 @@ h6, .h6 { font-size: $font-size-h6; margin: $margin-h6; }
 .text-nowrap         { white-space: nowrap; }
 .pull-left           { float: left;}
 .pull-right          { float: right;}
+.text-uppercase      {text-transform: uppercase;}
 
 .clearfix{
 	&:before , &:after {

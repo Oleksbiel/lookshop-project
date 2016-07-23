@@ -16,4 +16,14 @@
 	&--pd-0{
 		padding: 0;
 	}
+	&--border-top-bot {
+		border-top: 1px solid #d6d6d6;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	&--pd-sm{
+		padding: 10px;
+	}
+	&--mg-bot{
+		margin-bottom: 15px;
+	}
 }

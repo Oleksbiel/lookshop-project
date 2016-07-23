@@ -10,8 +10,13 @@
 		background-color: #fafafa;
 		border: 1px solid #d6d6d6;
 		padding: 10px;
-		text-transform: uppercase;
 		color: #949393;
 		margin-top: -1px;
+	}
+	&__icon{
+
+	}
+	&__description {
+		display: block;
 	}
 }

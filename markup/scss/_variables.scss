@@ -39,7 +39,7 @@ $font-size-h4:            $font-size-base !default;
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            $font-size-base !default;
 
-$margin-h1:               10px 0 !default;
+$margin-h1:               20px 0 !default;
 $margin-h2:               20px 0 !default;
 $margin-h3:               10px 0 !default;
 $margin-h4:               10px 0 !default;
@@ -54,6 +54,7 @@ $btn-border-width:               1px !default;
 $btn-border-radius:              0 !default;
 $btn-padding-vertical:           12px !default;
 $btn-padding-horizontal:         10px !default;
+$btn-border-radius:              null;
 
 $btn-brand-color:                #fff !default;
 $btn-brand-bg:                   $brand-color !default;
@@ -65,6 +66,9 @@ $btn-brand-border-hover:         darken($brand-color, 10%) !default;
 
 $btn-link-disabled-color:        #ccc !default;
 
+$btn-padding-vertical-lg:        18px;
+$btn-padding-horizontal-lg:      18px;
+$btn-fontSize-lg:                16px;
 
 // ## Forms
 $input-bg:                       #fff !default;

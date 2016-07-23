@@ -10,6 +10,7 @@
 @import 'forms';
 
 //components
+@import "components/caret";
 @import 'components/blocks';
 @import 'components/navbar';
 @import 'components/header';
@@ -20,3 +21,9 @@
 @import 'components/about';
 @import 'components/paycards';
 @import 'components/footer';
+
+// Interactive 
+@import "components/carousel";
+@import "../../bower_components/owl-carousel/owl-carousel/owl.carousel";
+@import "../../bower_components/owl-carousel/owl-carousel/owl.theme";
+@import "../../bower_components/owl-carousel/owl-carousel/owl.transitions";
