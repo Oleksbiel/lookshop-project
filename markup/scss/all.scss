@@ -2,12 +2,14 @@
 @import 'variables';
 
 
+
 // elements
 @import 'reset';
 @import 'type';
 @import 'grid';
 @import 'buttons';
 @import 'forms';
+@import 'features';
 
 //components
 @import 'components/blocks';
@@ -15,3 +17,4 @@
 @import 'components/brand';
 @import 'components/about';
 @import 'components/paycards';
+@import 'components/footer';
