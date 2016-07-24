@@ -250,6 +250,10 @@ $border-color:    #d8d8d8;
         background: transparent;
         padding: 14px;
         border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
       }
       &.icon-pinterest {
         color: $succes-bg;
@@ -258,6 +262,10 @@ $border-color:    #d8d8d8;
         background: transparent;
         padding: 14px;
         border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
       }
       &.icon-twitter2 {
         color: $succes-bg;
@@ -266,6 +274,10 @@ $border-color:    #d8d8d8;
         background: transparent;
         padding: 14px;
         border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
       }
       &.icon-envelope {
         color: $succes-bg;
@@ -274,6 +286,10 @@ $border-color:    #d8d8d8;
         background: transparent;
         padding: 14px;
         border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
       }
     }
   }
