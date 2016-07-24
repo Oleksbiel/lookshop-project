@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'helveticaneuecyrultralight';
+    src: url('../fonts/HelveticaNeue/helveticaneuecyr-ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeue/helveticaneuecyr-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('../fonts/HelveticaNeue/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeue/helveticaneuecyr-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuecyrheavy';
+    src: url('../fonts/HelveticaNeue/helveticaneuecyr-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeue/helveticaneuecyr-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bello-pro';
+    src: url('../fonts/Bello/Bello-Pro.eot') format('eot'),
+    	 url('../fonts/Bello/Bello-Pro.otf') format('otf'),
+    	 url('../fonts/Bello/Bello-Pro.ttf') format('ttf'),
+    	 url('../fonts/Bello/Bello-Pro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@mixin icon-color ($background, $color) {
+  background: $background;
+  color: $color;
+}
+
+@mixin icon-pill ($border-radius, $padding) {
+  border-radius: $border-radius;
+  padding: $padding;
+}
+
+$color-grey:       #414141;
+$brand-info-color: #4fafa0;
+$brand-color:      #fd926d;
+
+// Size-icon
+.icon-pill-large {
+  @include icon-pill(200px, 25px 14px);
+}
+.icon-pill-middle {
+  @include icon-pill(200px, 4px 10px);
+}
+.icon-pill-small {
+  @include icon-pill(5px, 2px);
+}
+
+// Color-icon
+.icon-color-lighten {
+  @include icon-color($lighten-bg, #000);
+}
+.icon-color-inverse {
+  @include icon-color($inverse-bg, #000);
+}
+.icon-color-primary {
+  @include icon-color($primary-bg, #000);
+}
+.icon-color-info {
+  @include icon-color($info-bg, #000);
+}
+.icon-color-succes {
+  @include icon-color($succes-bg, #000);
+}
+.icon-color-grey {
+  @include icon-color($color-grey, #fff);
+}
+
+// Margin, padding
+
+
+// Colors, background
+.brand-info {
+	color: $brand-info-color;
+}
+.bg-info {
+	color: $brand-info-color;
+}
+.color-grey {
+	color: $color-grey;
+}
+.inverse {
+  color: #fff;
+}
+.brand-color {
+  color: $brand-color;
+}
+// Buttons
+.btn--md {
+	padding: 7px 26px 7px 10px;
+	font: 12px 'helveticaneuecyrultralight', Arial, sans-serif;
+	position: relative;
+	left: 10%;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 33%;
+		right: 10%;
+		width: 0;
+    	height: 0;
+		border-top: 4px solid transparent;
+		border-left: 4px solid #fff;
+		border-bottom: 4px solid transparent;
+	}
+	&:hover {
+		background: darken($brand-info-color, 10%);
+	}
+}
+
+// Promo
+.promo {
+	width: 100%;
+	overflow: hidden;
+	&__block {
+		width: 50%;
+		position: relative;
+	}
+	& .tittle-first {
+		overflow: hidden;
+		max-width: 220px;
+		position: absolute;
+		top: 18%;
+		right: 9%;
+		& p.tittle-1 {
+			font: 34px 'helveticaneuecyrheavy', Arial, sans-serif;
+		}
+		& p.tittle-2 {
+			font: 74px 'helveticaneuecyrultralight', Arial, sans-serif;
+		}
+		& p.tittle-3 {
+			font: 62px 'helveticaneuecyrheavy', Arial, sans-serif;
+		}
+	}
+	& .block-1 {
+		position: relative;
+		margin-bottom: 2px;
+	}
+	& .tittle-second {
+		position: absolute;
+		top: 11%;
+		left: 6%;
+		background: #fff;
+		border: 1px solid $brand-info-color;
+		max-width: 131px;
+		max-height: 131px;
+		box-shadow: 0 0 5px 5px #fff;
+		& p.tittle-second-1 {
+			font: 22px 'bello-pro', Arial, sans-serif;
+		}
+		& p.tittle-second-2 {
+			font: 38px 'helveticaneuecyrultralight', Arial, sans-serif;
+		}
+		& p.tittle-second-3 {
+			font: 14px 'helveticaneuecyrheavy', Arial, sans-serif;
+		}
+	}
+	& .block-2 {
+		& .block-3 {
+			position: relative;
+			box-shadow: inset 0 5px 5px 5px $color-grey;
+			margin-right: 2px;
+			&__link {
+				position: absolute;
+				bottom: 2%;
+				left: 6%;
+				font: 30px 'helveticaneuecyrultralight', Arial, sans-serif;
+				text-shadow: 0 2px 0 rgba(0, 0, 0, 0.19);
+				&:after {
+					content: ">";
+					font-size: 18px;
+					text-shadow: none;
+				}
+			}
+		}
+		& .block-4 {
+			position: relative;
+			&__tittle {
+				position: absolute;
+				top: 25%;
+				left: 7%;
+				font: 27px 'helveticaneuecyrbold', Arial, sans-serif;
+				max-width: 120px;
+				& p {
+					margin-bottom: 19px;
+				}
+			}
+		}
+	}
+}
+.promo__button {
+	& .btn {
+		border-bottom: none;
+		color: #fff;
+	}
+}
+a:-webkit-any-link {
+	text-decoration: none;
+}
+// Heading
+.promo__heading {
+	margin-bottom: 6px;
+	&__title span {
+	   overflow: hidden;
+	   text-align: center;
+	   color: #fff;
+	   font: 22px 'helveticaneuecyrultralight', Arial, sans-serif;
+	    &:before,
+	    &:after {
+	     content: "";
+	     position: relative;
+	     display: inline-block;
+	     vertical-align: middle;
+	     width: 100%;
+	     height: 1px;
+	     background-color: $color-grey;
+	    }
+	    &:before {
+	     margin-left: -100%;
+	     left: -15px;
+	    }
+	    &:after {
+	     margin-right: -100%;
+	     right: -15px;
+	    }
+	}
+}

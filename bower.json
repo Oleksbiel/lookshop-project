@@ -1,0 +1,21 @@
+{
+  "name": "surfhouse-project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sasha <Oleksbielianinov@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "owl-carousel": "^1.3.2"
+  }
+}
