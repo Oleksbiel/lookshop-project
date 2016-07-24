@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 	watch = require('gulp-watch'),
     rigger = require('gulp-rigger');
 var concat = require('gulp-concat'),
-	jsConcat1 = './bower_components/owl-carousel/owl-carousel/owl.carousel.min.js';
+    jsConcat1 = './bower_components/owl-carousel/owl-carousel/owl.carousel.min.js';
 
 //////  Tasks
 

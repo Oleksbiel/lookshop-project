@@ -15,6 +15,9 @@
 		&:hover{
 			text-decoration: none;
 		}
+		&:hover .list-user__icon--mod{
+			color: $brand-color;
+		}
 	}
 	&__icon{
 		position: relative;

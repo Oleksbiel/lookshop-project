@@ -81,6 +81,9 @@
 			padding-left: 12px;
 			font-size: 13px;
 		}
+		&--pd-null{
+			padding: 0;
+		}
 	}
 	// [converter] extracted a& to a.btn
 }
@@ -140,6 +143,9 @@ a.btn {
 	font-size: 12px;
 	position: relative;
 
+}
+.btn--xs {
+	@include button-size (8px, 10px, 12px, 1.4, none);
 }
 
 

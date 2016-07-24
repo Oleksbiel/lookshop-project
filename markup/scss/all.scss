@@ -23,6 +23,12 @@
 @import 'components/paycards';
 @import 'components/footer';
 @import 'components/features';
+@import 'components/promo-home';
+@import 'components/info-block';
+
+
+//// Icons
+
 @import 'icons/style';
 
 // Interactive 
@@ -30,3 +36,5 @@
 @import "../../bower_components/owl-carousel/owl-carousel/owl.carousel";
 @import "../../bower_components/owl-carousel/owl-carousel/owl.theme";
 @import "../../bower_components/owl-carousel/owl-carousel/owl.transitions";
+@import "components/accordion";
+
