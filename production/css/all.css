@@ -1389,7 +1389,8 @@ input[type="search"] {
     border-bottom: 50px solid #fff;
     border-left: 50px solid transparent; }
   .sale p {
-    font-size: 10px; }
+    font-size: 10px;
+    color: #fff; }
 
 .features {
   position: relative;
