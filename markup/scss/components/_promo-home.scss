@@ -175,9 +175,13 @@ $brand-color:      #fd926d;
 				left: 6%;
 				font: 30px 'helveticaneuecyrultralight', Arial, sans-serif;
 				text-shadow: 0 2px 0 rgba(0, 0, 0, 0.19);
+				& a {
+					color: #fff;
+				}
 				&:after {
 					content: ">";
 					font-size: 18px;
+					color: #fff;
 					text-shadow: none;
 				}
 			}
