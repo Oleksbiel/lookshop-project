@@ -1304,6 +1304,9 @@ input[type="search"] {
 .padding-bottom {
   padding-bottom: 9px; }
 
+.width-sm {
+  max-width: 780px; }
+
 .border-bottom {
   border-bottom: 1px solid #d6d6d6; }
 
