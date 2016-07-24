@@ -14,7 +14,10 @@
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-imagemin": "^3.0.1",
+<<<<<<< HEAD
     "gulp-rigger": "^0.5.8",
+=======
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
     "gulp-sass": "^2.3.2",
     "gulp-watch": "^4.3.8"
   }

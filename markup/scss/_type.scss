@@ -48,6 +48,7 @@ h6, .h6 { font-size: $font-size-h6; margin: $margin-h6; }
 .text-right          { text-align: right; }
 .text-center         { text-align: center; }
 .text-justify        { text-align: justify; }
+<<<<<<< HEAD
 .text-nowrap         { white-space: nowrap; }
 .pull-left           { float: left;}
 .pull-right          { float: right;}
@@ -65,3 +66,6 @@ h6, .h6 { font-size: $font-size-h6; margin: $margin-h6; }
 *{
 	box-sizing: border-box;
 }
+=======
+.text-nowrap         { white-space: nowrap; }
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae

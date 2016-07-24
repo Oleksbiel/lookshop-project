@@ -2,18 +2,24 @@
 $gray-base:   #544f4d !default;
 $gray-darker: #a4a4a6 !default;
 $gray-dark:   #c6c6c6 !default;
+<<<<<<< HEAD
 
 $gray:        #8f8f8f !default;
 
 $brand-color: #fd926d !default;
 
+=======
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 $gray:        #999 !default;
 
 $brand-color: #fd926d !default;
 $brand-info-color: #4fafa0 !default;
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 //## Settings for some of the most global styles.
 
 //Bg-colors:
@@ -45,9 +51,12 @@ $font-size-h4:            $font-size-base !default;
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            $font-size-base !default;
 
+<<<<<<< HEAD
 $margin-h1:               20px 0 !default;
 $margin-h1:               30px 0 !default;
 $margin-h2:               15px 0 !default;
+=======
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 $margin-h1:               10px 0 !default;
 $margin-h2:               20px 0 !default;
 $margin-h3:               10px 0 !default;
@@ -63,6 +72,7 @@ $btn-border-width:               1px !default;
 $btn-border-radius:              0 !default;
 $btn-padding-vertical:           12px !default;
 $btn-padding-horizontal:         10px !default;
+<<<<<<< HEAD
 $btn-border-radius:              null;
 
 $btn-brand-color:                #fff !default;
@@ -70,6 +80,11 @@ $btn-brand-color:                #fff !default;
 $btn-brand-bg:                   $brand-color !default;
 
 
+=======
+
+$btn-brand-color:                #fff !default;
+$btn-brand-bg:                   #fd926d !default;
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 $btn-brand-border:               $brand-color !default;
 
 $btn-brand-color-hover:          #fff !default;
@@ -78,9 +93,12 @@ $btn-brand-border-hover:         darken($brand-color, 10%) !default;
 
 $btn-link-disabled-color:        #ccc !default;
 
+<<<<<<< HEAD
 $btn-padding-vertical-lg:        18px;
 $btn-padding-horizontal-lg:      18px;
 $btn-fontSize-lg:                16px;
+=======
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 
 // ## Forms
 $input-bg:                       #fff !default;
@@ -105,6 +123,11 @@ $form-group-margin-bottom:       15px !default;
 $cursor-disabled:                not-allowed !default;
 
 
+<<<<<<< HEAD
 /// Icon path
 
 $icomoon-font-path: "../fonts";
+=======
+
+
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae

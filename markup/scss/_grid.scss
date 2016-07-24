@@ -9,12 +9,20 @@
 //
 
 $enable-flex:               false !default;
+<<<<<<< HEAD
 
 $enable-rounded:            true !default;
 $enable-shadows:            true !default;
 $enable-gradients:          true !default;
 $enable-transitions:        true !default;
 $enable-hover-media-query:  true !default;
+=======
+$enable-rounded:            false !default;
+$enable-shadows:            false !default;
+$enable-gradients:          false !default;
+$enable-transitions:        false !default;
+$enable-hover-media-query:  false !default;
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 
 
 $developer-mode:            false !default;
@@ -35,7 +43,12 @@ $grid-breakpoints: (
   xs: 0,
   sm: 480px,
   md: 720px,
+<<<<<<< HEAD
   lg: 970px
+=======
+  lg: 960px,
+  xl: 1140px
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 ) !default;
 
 // Number of columns in the grid.
@@ -52,7 +65,12 @@ $grid-gutter-width:          30px !default;
 $container-max-widths: (
   sm: 480px,
   md: 720px,
+<<<<<<< HEAD
   lg: 1000px,
+=======
+  lg: 970px,
+  xl: 1140px
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 ) !default;
 
 

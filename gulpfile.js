@@ -4,10 +4,14 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	imagemin = require('gulp-imagemin'),
 	autoprefixer = require('gulp-autoprefixer'),
+<<<<<<< HEAD
 	watch = require('gulp-watch'),
     rigger = require('gulp-rigger');
 var concat = require('gulp-concat'),
 	jsConcat1 = './bower_components/owl-carousel/owl-carousel/owl.carousel.min.js';
+=======
+	watch = require('gulp-watch');
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 
 //////  Tasks
 
@@ -34,6 +38,7 @@ gulp.task('jquery', () =>
 		.pipe(gulp.dest('markup/js/'))
 );
 
+<<<<<<< HEAD
 gulp.task('scripts', function() {
   return gulp.src([jsConcat1])
     .pipe(concat('allInteractive.js'))
@@ -49,4 +54,9 @@ gulp.task('html', function () {
     gulp.src('markup/index.html')
         .pipe(rigger())
         .pipe(gulp.dest('production/'));
+=======
+gulp.task('watch', function() {
+    gulp.watch("./markup/scss/*.scss", ['sass']);
+    gulp.watch("./markup/js/assets.js", ['js']);
+>>>>>>> 379f552f33110cc20f62ba1797697ccfd62bc3ae
 });
