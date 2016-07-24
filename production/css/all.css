@@ -1448,7 +1448,7 @@ input[type="search"] {
 
 .icon-pill-middle {
   border-radius: 200px;
-  padding: 4px 10px; }
+  padding: 7px 10px; }
 
 .icon-pill-small {
   border-radius: 5px;
@@ -1574,7 +1574,8 @@ input[type="search"] {
       font: 27px 'helveticaneuecyrbold', Arial, sans-serif;
       max-width: 120px; }
       .promo .block-2 .block-4__tittle p {
-        margin-bottom: 19px; }
+        margin-bottom: 19px;
+        color: #fff; }
 
 .promo__button .btn {
   border-bottom: none;
