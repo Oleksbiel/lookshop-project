@@ -7,12 +7,14 @@ $grey-bg:         #4c4c4c;
 
 $brand-color:     #fd926d;
 $text-color:      #373737;
+$grey-color:      #4d4d4d;
 
 $border-color:    #d8d8d8;
 
-@mixin icon-color ($background, $color) {
+@mixin icon-color ($background, $color, $border-color) {
   background: $background;
   color: $color;
+  border-color: $border-color;
 }
 
 @mixin icon-pill ($border-radius, $padding) {
@@ -40,6 +42,9 @@ $border-color:    #d8d8d8;
 }
 .inverse {
   color: #fff;
+}
+.succes-color {
+  color: $succes-bg;
 }
 
 // Fonts
@@ -69,6 +74,10 @@ $border-color:    #d8d8d8;
 .margin--lg {
   margin-bottom: 27px;
 }
+.margin--md {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 .margin--sm {
   margin-bottom: 10px;
 }
@@ -78,14 +87,24 @@ $border-color:    #d8d8d8;
 .padding-bottom {
   padding-bottom: 9px;
 }
+.width-sm {
+  max-width: 780px;
+}
 
 // Border
 .border-bottom {
   border-bottom: 1px solid #d6d6d6;
 }
+.border-top {
+  border-top: 1px solid #d6d6d6;
+}
+.border {
+  border: 1px solid #d6d6d6;
+}
+
 // Size
 .icon-pill-large {
-  @include icon-pill(200px, 10px);
+  @include icon-pill(200px, 14px);
 }
 .icon-pill-middle {
   @include icon-pill(10px, 5px);
@@ -96,19 +115,19 @@ $border-color:    #d8d8d8;
 
 // Color
 .icon-color-lighten {
-  @include icon-color($lighten-bg, #000);
+  @include icon-color($lighten-bg, #000, $lighten-bg);
 }
 .icon-color-inverse {
-  @include icon-color($inverse-bg, #000);
+  @include icon-color($inverse-bg, #000, $inverse-bg);
 }
 .icon-color-primary {
-  @include icon-color($primary-bg, #000);
+  @include icon-color($primary-bg, #000, $primary-bg);
 }
 .icon-color-info {
-  @include icon-color($info-bg, #000);
+  @include icon-color($info-bg, #000, $info-bg);
 }
 .icon-color-succes {
-  @include icon-color($succes-bg, #000);
+  @include icon-color(transparent, $succes-bg, $succes-bg);
 }
 
 // Background
@@ -152,6 +171,7 @@ $border-color:    #d8d8d8;
   }
   & p {
     font-size: 10px;
+    color: #fff;
   }
 }
 
@@ -216,5 +236,74 @@ $border-color:    #d8d8d8;
   }
   & span {
     color: #000;
+  }
+}
+
+// Icon features
+.icon-features {
+  .features__photo {
+    & span {
+      display: block;
+      &.icon-facebook {
+        color: $succes-bg;
+        font-size: 21px;
+        border: 2px solid $succes-bg;
+        background: transparent;
+        padding: 14px;
+        border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
+      }
+      &.icon-pinterest {
+        color: $succes-bg;
+        font-size: 21px;
+        border: 2px solid $succes-bg;
+        background: transparent;
+        padding: 14px;
+        border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
+      }
+      &.icon-twitter2 {
+        color: $succes-bg;
+        font-size: 21px;
+        border: 2px solid $succes-bg;
+        background: transparent;
+        padding: 14px;
+        border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
+      }
+      &.icon-envelope {
+        color: $succes-bg;
+        font-size: 21px;
+        border: 2px solid $succes-bg;
+        background: transparent;
+        padding: 14px;
+        border-radius: 200px;
+        &:hover {
+          color: $brand-color;
+          border-color: $brand-color;
+        }
+      }
+    }
+  }
+  & .article {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: $grey-color;
+    & .tittle {
+        margin-bottom: 0;
+      & p {
+
+      }
+    }
   }
 }

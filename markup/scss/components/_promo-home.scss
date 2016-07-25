@@ -49,7 +49,7 @@ $brand-color:      #fd926d;
   @include icon-pill(200px, 25px 14px);
 }
 .icon-pill-middle {
-  @include icon-pill(200px, 4px 10px);
+  @include icon-pill(200px, 7px 10px);
 }
 .icon-pill-small {
   @include icon-pill(5px, 2px);
@@ -175,9 +175,13 @@ $brand-color:      #fd926d;
 				left: 6%;
 				font: 30px 'helveticaneuecyrultralight', Arial, sans-serif;
 				text-shadow: 0 2px 0 rgba(0, 0, 0, 0.19);
+				& a {
+					color: #fff;
+				}
 				&:after {
 					content: ">";
 					font-size: 18px;
+					color: #fff;
 					text-shadow: none;
 				}
 			}
@@ -192,6 +196,7 @@ $brand-color:      #fd926d;
 				max-width: 120px;
 				& p {
 					margin-bottom: 19px;
+					color: #fff;
 				}
 			}
 		}
