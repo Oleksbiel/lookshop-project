@@ -25,6 +25,7 @@
 @import 'components/features';
 @import 'components/promo-home';
 @import 'components/info-block';
+@import 'components/filters';
 
 
 //// Icons
@@ -38,3 +39,61 @@
 @import "../../bower_components/owl-carousel/owl-carousel/owl.transitions";
 @import "components/accordion";
 
+.flat-slider.ui-corner-all,
+.flat-slider .ui-corner-all {
+  border-radius: 0;
+}
+
+.flat-slider.ui-slider {
+  border: 0;
+  background: #f7d2cc;
+  border-radius: 12px;
+}
+
+.flat-slider.ui-slider-horizontal {
+  height: 6px;
+}
+
+.flat-slider.ui-slider-vertical {
+  height: 15em;
+  width: 6px;
+}
+
+.flat-slider .ui-slider-handle {
+  width: 22px;
+  height: 20px;
+  background: #38b11f;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.flat-slider.ui-slider-horizontal .ui-slider-handle {
+  top: 50%;
+  margin-top: -10px;
+}
+
+.flat-slider.ui-slider-vertical .ui-slider-handle {
+  left: 50%;
+  margin-left: -11px;
+}
+
+.flat-slider .ui-slider-handle:hover {
+  opacity: .8;
+}
+
+.flat-slider .ui-slider-range {
+  border: 0;
+  border-radius: 12;
+  background: #f99;
+}
+
+.flat-slider.ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 6px;
+}
+
+.flat-slider.ui-slider-vertical .ui-slider-range {
+  left: 0;
+  width: 6px;
+}

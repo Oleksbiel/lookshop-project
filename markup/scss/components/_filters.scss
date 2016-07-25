@@ -1,0 +1,27 @@
+.filters{
+	&__size-box{
+
+	}
+	&__title{
+		color: #5e5e5e;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}	
+	&__list{
+
+	}
+	&__item{
+		display: inline-block;
+		margin-right: 5px;
+	}
+	&__link{
+		display: inline-block;
+		background-color: #f4f4f4;
+		padding: 10px;
+		&:hover{
+			background-color: $brand-color;
+			color: #fff;
+		}
+
+	}
+}
