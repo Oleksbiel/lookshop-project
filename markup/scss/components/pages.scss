@@ -1,0 +1,92 @@
+$grey-color:      #4d4d4d;
+$light-grey-bg:   #f4f4f4;
+$darken-grey-bg:  #e5e5e5;
+$dark-drey:       #6a6a6a;
+$brand-color:     #fd926d;
+
+.margin-bottom {
+	margin-bottom: 15px;
+}
+.border-bottom {
+  border-bottom: 1px solid #d6d6d6;
+}
+.pages-padding-bottom {
+  padding-bottom: 15px;
+}
+.pages--margin-right {
+	margin-right: 2%;
+}
+
+
+.pages__drop {
+	& p {
+		color: $grey-color;
+		font-size: 11px;
+		margin-right: 8px;
+		margin-top: 6%;
+	}
+	& ul.style__drop {
+		background: $light-grey-bg;
+		padding: 9px 68px 9px 9px;
+		position: relative;
+		& a.open_drop {
+			font-size: 11px;
+			color: $grey-color;
+		}
+		& li.caret__drop {
+			position: absolute;
+			background: $darken-grey-bg;
+			padding: 9px;
+			top: 0;
+			right: 0;
+			& .caret {
+				margin-left: 4px;
+				color: $dark-drey;
+			}
+		}
+		& .drop__list {
+			text-align: left;
+			padding-left: 9px;
+			top: 29px;
+			background: $light-grey-bg;
+			& li {
+				margin-bottom: 9px;
+				& a {
+					color: $grey-color;
+					&:hover {
+						color: $brand-color;
+					}
+				}
+			}
+		}
+	}
+}
+.pages {
+	& .results {
+		& p {
+			color: $grey-color;
+			font-size: 11px;
+			margin-right: 8px;
+			margin-top: 6%;
+		}
+	}
+	& .pages__number {
+		& ul li {
+			display: inline-block;
+			font-size: 11px;
+			& a {
+				display: block;
+				background: $light-grey-bg;
+				padding: 10px 12px;
+				color: $dark-drey;
+				height: 100%;
+				&.icon-chevron-padding {
+					padding: 10px 10px;
+				}
+				&:hover {
+					background: darken($light-grey-bg, 5%);
+				}
+			}
+		}
+	}
+}
