@@ -13,6 +13,22 @@ $('.carousel-2').owlCarousel({
     navigationText : ["",""]
 })
 
+
+ $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  focusOnSelect: true
+});
+		
 //// Accordion
 
 var acc = document.getElementsByClassName("accordion");
@@ -35,4 +51,20 @@ for (n = 0; n < acc2.length; n++) {
     }
 }
 
-//// slider range
+/// btn-size
+
+var mainClass = document.querySelector('.btn-group'),
+	result = mainClass.querySelector('.btn-group__result'),
+	firstChild = mainClass.firstElementChild,
+	lastChild = mainClass.lastElementChild;
+	firstChild.onclick = remove;
+	lastChild.onclick = add;
+
+	function add(){
+		result.innerHTML =  +result.innerHTML  + 1;
+	}
+	function remove(){
+		if(result.innerHTML >= 1) {
+			result.innerHTML = +result.innerHTML - 1;
+		}
+	}

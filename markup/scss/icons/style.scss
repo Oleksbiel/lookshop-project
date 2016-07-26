@@ -1,124 +1,134 @@
 @import "variables";
 
 @font-face {
-    font-family: 'icomoon';
-    src:    url('#{$icomoon-font-path}/icomoon.eot?a6mk2j');
-    src:    url('#{$icomoon-font-path}/icomoon.eot?a6mk2j#iefix') format('embedded-opentype'),
-        url('#{$icomoon-font-path}/icomoon.ttf?a6mk2j') format('truetype'),
-        url('#{$icomoon-font-path}/icomoon.woff?a6mk2j') format('woff'),
-        url('#{$icomoon-font-path}/icomoon.svg?a6mk2j#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?irglvn');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?irglvn#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?irglvn') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?irglvn') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?irglvn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-remove {
+  &:before {
+    content: $icon-remove;
+  }
+}
+.icon-add {
+  &:before {
+    content: $icon-add;
+  }
+}
 .icon-chevron-thin-right {
-    &:before {
-        content: $icon-chevron-thin-right;
-    }
+  &:before {
+    content: $icon-chevron-thin-right;
+  }
 }
 .icon-chevron-thin-left {
-    &:before {
-        content: $icon-chevron-thin-left;
-    }
+  &:before {
+    content: $icon-chevron-thin-left;
+  }
 }
 .icon-vk {
-    &:before {
-        content: $icon-vk;
-    }
+  &:before {
+    content: $icon-vk;
+  }
 }
 .icon-google {
-    &:before {
-        content: $icon-google;
-    }
+  &:before {
+    content: $icon-google;
+  }
 }
 .icon-plus {
-    &:before {
-        content: $icon-plus;
-    }
+  &:before {
+    content: $icon-plus;
+  }
 }
 .icon-envelope {
-    &:before {
-        content: $icon-envelope;
-    }
+  &:before {
+    content: $icon-envelope;
+  }
 }
 .icon-twitter {
-    &:before {
-        content: $icon-twitter;
-    }
+  &:before {
+    content: $icon-twitter;
+  }
 }
 .icon-social {
-    &:before {
-        content: $icon-social;
-    }
+  &:before {
+    content: $icon-social;
+  }
 }
 .icon-magnifying-glass {
-    &:before {
-        content: $icon-magnifying-glass;
-    }
+  &:before {
+    content: $icon-magnifying-glass;
+  }
 }
 .icon-search {
-    &:before {
-        content: $icon-search;
-    }
+  &:before {
+    content: $icon-search;
+  }
 }
 .icon-zoom {
-    &:before {
-        content: $icon-zoom;
-    }
+  &:before {
+    content: $icon-zoom;
+  }
 }
 .icon-home {
-    &:before {
-        content: $icon-home;
-    }
+  &:before {
+    content: $icon-home;
+  }
 }
 .icon-user {
-    &:before {
-        content: $icon-user;
-    }
+  &:before {
+    content: $icon-user;
+  }
 }
 .icon-facebook {
-    &:before {
-        content: $icon-facebook;
-    }
+  &:before {
+    content: $icon-facebook;
+  }
 }
 .icon-twitter2 {
-    &:before {
-        content: $icon-twitter2;
-    }
+  &:before {
+    content: $icon-twitter2;
+  }
 }
 .icon-pinterest {
-    &:before {
-        content: $icon-pinterest;
-    }
+  &:before {
+    content: $icon-pinterest;
+  }
 }
 .icon-chevron-right {
-    &:before {
-        content: $icon-chevron-right;
-    }
+  &:before {
+    content: $icon-chevron-right;
+  }
 }
 .icon-chevron-left {
-    &:before {
-        content: $icon-chevron-left;
-    }
+  &:before {
+    content: $icon-chevron-left;
+  }
 }
 .icon-shopping-bag {
-    &:before {
-        content: $icon-shopping-bag;
-    }
+  &:before {
+    content: $icon-shopping-bag;
+  }
 }
 

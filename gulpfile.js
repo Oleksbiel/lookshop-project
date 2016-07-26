@@ -7,7 +7,8 @@ var gulp = require('gulp'),
 	watch = require('gulp-watch'),
     rigger = require('gulp-rigger');
 var concat = require('gulp-concat'),
-    jsConcat1 = './bower_components/owl-carousel/owl-carousel/owl.carousel.min.js';
+    jsConcat1 = './bower_components/owl-carousel/owl-carousel/owl.carousel.min.js',
+    jsConcat2 = './bower_components/slick-carousel/slick/slick.min.js';
 
 //////  Tasks
 
@@ -35,7 +36,7 @@ gulp.task('jquery', () =>
 );
 
 gulp.task('scripts', function() {
-  return gulp.src([jsConcat1])
+  return gulp.src([jsConcat1, jsConcat2])
     .pipe(concat('allInteractive.js'))
     .pipe(gulp.dest('markup/js/'));
 });
