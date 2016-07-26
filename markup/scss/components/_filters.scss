@@ -13,11 +13,15 @@
 	&__item{
 		display: inline-block;
 		margin-right: 5px;
+		width: 30px;
+    	height: 30px;
+   		background-color: #f4f4f4;
 	}
 	&__link{
 		display: inline-block;
-		background-color: #f4f4f4;
-		padding: 10px;
+		line-height: 30px;
+    	text-align: center;
+    	display: block;
 		&:hover{
 			background-color: $brand-color;
 			color: #fff;

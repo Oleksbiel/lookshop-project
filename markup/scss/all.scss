@@ -26,7 +26,11 @@
 @import 'components/promo-home';
 @import 'components/info-block';
 @import 'components/filters';
+<<<<<<< HEAD
 @import 'components/pages';
+=======
+@import 'components/product';
+>>>>>>> 1fd66e2bea7e8049915d5768f0c69a1ee063acf6
 
 
 //// Icons
@@ -38,4 +42,6 @@
 @import "../../bower_components/owl-carousel/owl-carousel/owl.carousel";
 @import "../../bower_components/owl-carousel/owl-carousel/owl.theme";
 @import "../../bower_components/owl-carousel/owl-carousel/owl.transitions";
+@import "../../bower_components/slick-carousel/slick/slick-theme.scss";
+@import "../../bower_components/slick-carousel/slick/slick.scss";
 @import "components/accordion";

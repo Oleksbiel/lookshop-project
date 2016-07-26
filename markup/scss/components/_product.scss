@@ -1,0 +1,95 @@
+.product {
+    &__nav {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #d6d6d6;
+        display: block;
+    }
+    &__icon {
+        display: inline-block;
+        padding-right: 5px;
+        vertical-align: bottom;
+    }
+    &__price {
+        font-size: 36px;
+        font-weight: 700;
+        color: $brand-color;
+        display: inline-block;
+    }
+    &__reviews {
+        display: inline-block;
+        padding-right: 20px;
+    }
+    &__reviews-box {
+        padding-top: 15px;
+    }
+    &__list {
+        font-size: 0;
+        display: inline-block;
+    }
+    &__item {
+        display: inline-block;
+        margin-right: 1px;
+        &--reviews-mod {
+            width: 9px;
+            height: 9px;
+            background: #000;
+        }
+        &--colors-mod {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+        &--bg-1 {
+            background-color: #efebe2;
+        }
+        &--bg-2 {
+            background-color: #c9c1c6;
+        }
+        &--bg-3 {
+            background-color: #b29b88;
+        }
+        &--bg-4 {
+            background-color: #968886;
+        }
+        &--bg-5 {
+            background-color: #cde0ef;
+        }
+        &--bg-gray {
+            background: $gray;
+        }
+        &--bg-half-gray {
+            background: linear-gradient(to right, #000 50%, $gray 50%);
+        }
+    }
+    &__description {
+        padding: 30px 0 20px 0;
+        margin: 0;
+        line-height: 18px;
+    }
+    &__pick-box {
+        padding: 7px 0;
+        border-top: 1px solid #d6d6d6;
+        border-bottom: 1px solid #d6d6d6;
+        margin-bottom: 20px;
+    }
+    &__size{
+        min-width: 125px;
+        padding: 9px;
+        background-color: #f4f4f4;
+        position: relative;
+    }
+    &__size-title{
+    	color: #4d4d4d;
+    }
+    &__caret-wrapper {
+        position: absolute;
+        padding: 0px;
+        top: 0;
+        bottom: 0;
+        right: 0px;
+        left: 95px;
+        text-align: center;
+        background-color: #e5e5e5;
+        line-height: 30px;
+    }
+}
