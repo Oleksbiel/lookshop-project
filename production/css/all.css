@@ -847,6 +847,12 @@ h6, .h6 {
     .btn--plus-icon--xs {
       padding: 0;
       font-size: 12px; }
+  .btn--secondary {
+    box-shadow: inset 0 -3px 0 #ccc;
+    color: #000;
+    background: #e5e5e5; }
+    .btn--secondary:hover {
+      background: #e0e0e0; }
 
 a.btn.disabled,
 fieldset[disabled] a.btn {
@@ -1049,7 +1055,7 @@ input[type="search"] {
   .caret--mg-left {
     margin-left: 20px; }
   .caret--mg-null {
-    margin: 0; }
+    margin: 0 !important; }
 
 .block {
   padding: 20px 0; }
@@ -1141,6 +1147,29 @@ input[type="search"] {
   text-decoration: none; }
   .list-navigation__link:hover {
     text-decoration: none; }
+
+.list-social__item {
+  display: inline-block;
+  padding-right: 10px;
+  padding-bottom: 5px; }
+
+.list-social__link {
+  color: #FFF;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  position: relative;
+  background: #4c4c4b; }
+
+.list-social__icon {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block; }
 
 .dropdown {
   position: relative; }
@@ -1259,22 +1288,36 @@ input[type="search"] {
     display: inline-block;
     padding-right: 10px; }
 
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .footer__item .item__title {
-    display: inline-block;
-    padding-bottom: 10px;
-    color: #544f4d;
-    font-weight: 700;
-    font-size: 16px; }
-  .footer__item .item__link {
-    text-decoration: none;
-    line-height: 1.4; }
+.footer__title {
+  display: inline-block;
+  padding-bottom: 10px;
+  color: #544f4d;
+  font-weight: 700;
+  font-size: 16px; }
+
+.footer__list {
+  padding-top: 10px; }
+
+.footer__item {
+  display: inline-block; }
+  .footer__item:before {
+    content: '|';
+    padding: 0px 5px; }
+  .footer__item:first-child:before {
+    content: '';
+    padding: 0; }
+
+.footer__link {
+  text-decoration: none;
+  line-height: 1.4; }
+
+.footer__img {
+  padding-top: 15px; }
+
+.footer__copyright {
+  display: inline-block;
+  line-height: 18px;
+  text-align: right; }
 
 .pull-left {
   float: left; }
@@ -1768,7 +1811,55 @@ a:-webkit-any-link {
     background-color: #fd926d;
     color: #fff; }
 
-<<<<<<< HEAD
+.filters__price-box {
+  padding: 25px 0; }
+
+.filters__range {
+  height: 5px;
+  background-color: #e5e5e5;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative; }
+  .filters__range:after {
+    content: '';
+    position: absolute;
+    background: #fd926d;
+    height: 5px;
+    left: 0;
+    right: 45%; }
+
+.filters__range-indicators:after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  box-shadow: 0 2px 0 #dd6b44;
+  background: #fd926d;
+  border-radius: 50%;
+  right: 45%;
+  bottom: 50%;
+  z-index: 99;
+  margin-bottom: -5px;
+  cursor: pointer; }
+
+.filters__range-indicators:before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  box-shadow: 0 2px 0 #dd6b44;
+  background: #fd926d;
+  border-radius: 50%;
+  left: 0;
+  bottom: 50%;
+  z-index: 99;
+  margin-bottom: -5px;
+  cursor: pointer; }
+
+.filters__price {
+  display: inline-block;
+  padding-top: 10px; }
+
 .margin-bottom {
   margin-bottom: 15px; }
 
@@ -1834,7 +1925,7 @@ a:-webkit-any-link {
       padding: 10px 10px; }
     .pages .pages__number ul li a:hover {
       background: #e7e7e7; }
-=======
+
 .product__nav {
   padding-bottom: 15px;
   border-bottom: 1px solid #d6d6d6;
@@ -1919,7 +2010,6 @@ a:-webkit-any-link {
   text-align: center;
   background-color: #e5e5e5;
   line-height: 30px; }
->>>>>>> 1fd66e2bea7e8049915d5768f0c69a1ee063acf6
 
 @font-face {
   font-family: 'icomoon';
@@ -2130,8 +2220,6 @@ a:-webkit-any-link {
     color: #000;
     opacity: 0.8; }
 
-<<<<<<< HEAD
-=======
 .slider-for {
   padding-bottom: 10px; }
 
@@ -2644,7 +2732,6 @@ a:-webkit-any-link {
 .slick-arrow.slick-hidden {
   display: none; }
 
->>>>>>> 1fd66e2bea7e8049915d5768f0c69a1ee063acf6
 .accordion1-wrapper .accordion {
   cursor: pointer;
   padding: 18px;

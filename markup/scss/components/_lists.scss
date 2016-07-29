@@ -1,58 +1,81 @@
-.list-user{
-	font-size: 0;
-	&__item{
-		display: inline-block;
-		border-left: 1px solid #444;
-		border-right: 1px solid #444;	
-	}
-	&__link {
-		text-decoration: none;
-		padding: 10px 12px;
-		display: inline-block;
-		text-transform: uppercase;
-		font-size: 12px;
-		color: #fff;
-		&:hover{
-			text-decoration: none;
-		}
-		&:hover .list-user__icon--mod{
-			color: $brand-color;
-		}
-	}
-	&__icon{
-		position: relative;
-		&--mod{
-			color: #666;
-			font-size: 13px;
-			margin-right: 10px;
-		}
-	}
-}
-.list-navigation{
-	&:first-child li {
-		margin: 0;
-	}
-	&__item{
-		display: inline-block;
-		&:before{
-			content: '>';
-			margin: 0 6px;
-		}
-		margin-left: 5px;
-		&:first-child{
-			&:before{
-				content: '';
-			}
-		}
-	}
-	&__link{
-		text-decoration: none;
-		&:hover{
-			text-decoration: none;
-		}
-	}
-	&__icon{
-
-	}
+.list-user {
+    font-size: 0;
+    &__item {
+        display: inline-block;
+        border-left: 1px solid #444;
+        border-right: 1px solid #444;
+    }
+    &__link {
+        text-decoration: none;
+        padding: 10px 12px;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #fff;
+        &:hover {
+            text-decoration: none;
+        }
+        &:hover .list-user__icon--mod {
+            color: $brand-color;
+        }
+    }
+    &__icon {
+        position: relative;
+        &--mod {
+            color: #666;
+            font-size: 13px;
+            margin-right: 10px;
+        }
+    }
 }
 
+.list-navigation {
+    &:first-child li {
+        margin: 0;
+    }
+    &__item {
+        display: inline-block;
+        &:before {
+            content: '>';
+            margin: 0 6px;
+        }
+        margin-left: 5px;
+        &:first-child {
+            &:before {
+                content: '';
+            }
+        }
+    }
+    &__link {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    &__icon {}
+}
+
+.list-social {
+    &__item {
+        display: inline-block;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
+    &__link {
+        color: #FFF;
+        display: inline-block;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        position: relative;
+        background: #4c4c4b;
+    }
+    &__icon {
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+    }
+}

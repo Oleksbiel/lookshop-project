@@ -88,6 +88,14 @@
             font-size: 12px;
         }
     }
+    &--secondary{
+        box-shadow: inset 0 -3px 0 #ccc;
+        color: $btn-secondary-color;
+        background: $btn-secondary-bg;
+        &:hover{
+            background: darken($btn-secondary-bg, 2%);
+        }
+    }
     // [converter] extracted a& to a.btn
 }
 

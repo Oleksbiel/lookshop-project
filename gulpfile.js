@@ -9,6 +9,7 @@ var gulp = require('gulp'),
 var concat = require('gulp-concat'),
     jsConcat1 = './bower_components/owl-carousel/owl-carousel/owl.carousel.min.js',
     jsConcat2 = './bower_components/slick-carousel/slick/slick.min.js';
+    
 
 //////  Tasks
 

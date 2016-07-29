@@ -1,17 +1,38 @@
 .footer {
-	display: flex;
-	justify-content: space-between;
-	&__item {
-		.item__title {
-			display: inline-block;
-			padding-bottom: 10px;
-			color: $gray-base;
-			font-weight: 700;
-			font-size: ($font-size-base + 4);
+    &__title {
+        display: inline-block;
+        padding-bottom: 10px;
+        color: $gray-base;
+        font-weight: 700;
+        font-size: ($font-size-base + 4);
+    }
+    &__list{
+    	padding-top: 10px;
+    }
+    &__item{
+		display: inline-block;
+		&:before{
+			content: '|';
+			padding: 0px 5px;
 		}
-		.item__link {
-			text-decoration: none;
-			line-height: 1.4;
+		&:first-child:before{
+			content: '';
+			padding: 0;
 		}
-	}
+    }
+    &__link {
+        text-decoration: none;
+        line-height: 1.4;
+    }
+    &__img{
+    	padding-top: 15px;
+    }
+    &__copyright-box{
+
+    }
+    &__copyright{
+		display: inline-block;
+		line-height: 18px;
+		text-align: right;
+    }
 }
